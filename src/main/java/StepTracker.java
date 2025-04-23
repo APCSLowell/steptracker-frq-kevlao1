@@ -8,5 +8,8 @@ public class StepTracker
  totalSteps+=a; numDays++;
   if(a >= minSteps){numActive++;}
  }
- public double averageSteps(){return ((double)totalSteps)/numDays;}
+ public double averageSteps(){
+  if(numDays == 0){return 0;}
+   else return ((double)totalSteps)/numDays;
+ }
 } 
