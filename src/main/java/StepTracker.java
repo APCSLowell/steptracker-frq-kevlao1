@@ -4,7 +4,7 @@ public class StepTracker
  private int minSteps, numDays, totalSteps, numActive;
  public StepTracker(int a){minSteps = a; numDays = 0; totalSteps = 0; numActive = 0;}
  public int activeDays(){return numActive;}
- public void addDailySteps{
+ public void addDailySteps(){
  totalSteps; numDays++;
   if(a >= minSteps){numActive++;}
  }
